@@ -14,5 +14,4 @@ steps:
   inputs:
     containerRegistry: 'docker hub'
     repository: 'aniketdewa / docker-push'
-    command: 'build'
-    Dockerfile: '**/Dockerfile'
+    command: 'push'
